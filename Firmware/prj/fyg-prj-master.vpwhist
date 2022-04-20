@@ -1,0 +1,115 @@
+[Global]
+CurrentProject=fyg-prj-master.vpj
+[ProjectDates]
+fyg-prj-master.vpj=20180518050950000
+[ActiveConfig]
+smartarm2200_app.vpj=Debug
+button.vpj=,Debug
+fyg-ecos.vpj=Debug
+\desk\Servo\servo_acmc_shan\2015-01-14 16-00\prj\prj.vpj=Debug
+E:\EdaWrkDsn\_UCOSII\NU_PLUS\_Nucleus_Tst\NU_Plus_OMAP1510\prj\prj.vpj=Debug
+E:\FeiygWrkDsn\_SW\IAR_LPC111x_BSP_CLI\prj\prj.vpj=Debug
+\desk\ecosbox\NuttX\autoquad_keil\prj\fyg-autoquad.vpj=Debug
+fyg-bldc-master.vpj=Debug
+..\..\autoquad\esc32\msOS\凤舞天\嵌入式微系统（msOS）正式发布\msOS For  Stm32-v0.09_20140219\复件 msOS_ucos版本\SourceFile\prj\fyg-bldc-master.vpj=Debug
+fyg-prj-master.vpj=Debug
+..\..\bldc-334-build\prj\fyg-prj-master.vpj=Debug
+[TreeExpansion2]
+-@ fyg-prj-master.vpj
+  - bldc-338-build
+    + Drivers
+      + CMSIS
+        + Device
+          + ST
+            + STM32F4xx
+              + Include
+        + DSP_Lib
+          + Source
+            + CommonTables
+            + FastMathFunctions
+        + Include
+      + DRV8301
+      + STM32F4xx_HAL_Driver
+        + Inc
+          + Legacy
+        + Src
+    + Inc
+      + prev_board_ver
+    - mdk_app
+      + output
+        + obj
+      + RTE
+        + _project
+    - Middlewares
+      + ST
+        + STM32_USB_Device_Library
+          + Class
+            + CDC
+              + Inc
+              + Src
+          + Core
+            + Inc
+            + Src
+      + Third_Party
+        + FreeRTOS
+          + Source
+            + CMSIS_RTOS
+            + include
+            + portable
+              + GCC
+                + ARM_CM4F
+              + MemMang
+              + RVDS
+                + ARM_CM4F
+    - MotorControl
+    - Src
+      + prev_board_ver
+    + startup
+      + ARM
+scroll:0
+[State]
+SCREEN: 1280 800 91 55 1099 661 0 0 N 0 0 0 0 978 647 0
+CWD: ..\prj
+BUFFER: BN="..\Src\main.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=8 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=33554432 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.8155 CL=11 LE=0 CX=11 CY=17 WI=5 BI=9 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\MotorControl\commands.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=8 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=33554432 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=5 BI=4 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\Inc\version.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=8 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=33554432 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.117 CL=44 LE=0 CX=44 CY=3 WI=5 BI=10 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\MotorControl\low_level.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=8 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=120783456 TL=0 MLL=0 ASE=0 LNL=1 LCF=6 CAPS=0 E=0 ESBU2=1 CL="" SC="" SCE= SCU=
+VIEW: LN=.-1 CL=1 LE=0 CX=1 CY=0 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
+WINDOW: 1 22 976 624 0 0 N  WF=0 WT=3 ",,," DID=0
+BUFFER: BN="..\MotorControl\commands.c"
+VIEW: LN=.12036 CL=47 LE=0 CX=52 CY=9 WI=70 BI=4 HT=0 HN=0 HF=0 HC=4
+WINDOW: 1 22 976 624 0 0 N  WF=0 WT=2 ",,," DID=0
+BUFFER: BN="..\Src\main.c"
+VIEW: LN=.8155 CL=11 LE=0 CX=16 CY=17 WI=68 BI=9 HT=0 HN=0 HF=0 HC=4
+WINDOW: 1 22 976 624 0 0 N  WF=0 WT=5 ",,," DID=0
+BUFFER: BN="..\Inc\version.h"
+VIEW: LN=.117 CL=44 LE=0 CX=48 CY=3 WI=72 BI=10 HT=0 HN=0 HF=0 HC=4
+WINDOW: 1 22 976 624 0 0 N  WF=0 WT=6 ",,," DID=0
+BUFFER: BN="..\MotorControl\low_level.c"
+VIEW: LN=.13584 CL=48 LE=0 CX=54 CY=15 WI=74 BI=11 HT=0 HN=0 HF=0 HC=4
+MDISTATE: 1
+AAAAAAAAAAHaAAAAAAAAADkAAAT/AAAC1uoAAAAC+gAAAAQAAAAEAAAAAAAAAAMAAAABAAAAAvoAAAAEAAAABAAAAAAAAAADAAAAAQAAAAL8AAAAqAA2ADoAOgA6AEUAOgBcAHcAbwByAGsAXABwAHIAagBcAG8AZAByAGkAdgBlAFwAbwBkAHIAaQB2AGUAXwBwAHIAagBcAE8ARAByAGkAdgBlAC0AZgB3AC0AdgAwAC4AMgAuADIAXABGAGkAcgBtAHcAYQByAGUAXABNAG8AdABvAHIAQwBvAG4AdAByAG8AbABcAGwAbwB3AF8AbABlAHYAZQBsAC4AYwEA/////wAA/AAAAKYAMwA6ADoAOgBFADoAXAB3AG8AcgBrAFwAcAByAGoAXABvAGQAcgBpAHYAZQBcAG8AZAByAGkAdgBlAF8AcAByAGoAXABPAEQAcgBpAHYAZQAtAGYAdwAtAHYAMAAuADIALgAyAFwARgBpAHIAbQB3AGEAcgBlAFwATQBvAHQAbwByAEMAbwBuAHQAcgBvAGwAXABjAG8AbQBtAGEAbgBkAHMALgBjAAD/////AAD8AAAAjAAyADoAOgA6AEUAOgBcAHcAbwByAGsAXABwAHIAagBcAG8AZAByAGkAdgBlAFwAbwBkAHIAaQB2AGUAXwBwAHIAagBcAE8ARAByAGkAdgBlAC0AZgB3AC0AdgAwAC4AMgAuADIAXABGAGkAcgBtAHcAYQByAGUAXABTAHIAYwBcAG0AYQBpAG4ALgBjAAD/////AAD8AAAAkgA1ADoAOgA6AEUAOgBcAHcAbwByAGsAXABwAHIAagBcAG8AZAByAGkAdgBlAFwAbwBkAHIAaQB2AGUAXwBwAHIAagBcAE8ARAByAGkAdgBlAC0AZgB3AC0AdgAwAC4AMgAuADIAXABGAGkAcgBtAHcAYQByAGUAXABJAG4AYwBcAHYAZQByAHMAaQBvAG4ALgBoAAD/////AAA=
+FILEHIST: 9
+..\mcpwm_foc.h
+..\servo_dec.c
+..\mcpwm_foc.c
+..\applications\app_ppm.c
+..\hwconf\hw_413.h
+..\Src\main.c
+..\Inc\version.h
+..\MotorControl\commands.c
+..\MotorControl\low_level.c
+TBCLASS: 0 0
+DEBUG: 0 0 1 0 3 0 gdb
+00tim4_dsr..\app\acmc_stm32_libopencm4_stlib\prj_acmc_stm32f427_app\prj_acmc_stm32f427_app\src\app\boot\boot_core.c968710
+printf
+strcpy
+std::*
+DEBUG2: 0

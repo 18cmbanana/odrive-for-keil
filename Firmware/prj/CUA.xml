@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<KeyBindings Version="1.0" Emulation="CUA">
+	<Mode Name="default">
+		<Assign Key="Alt+B" Command="hide-code-block"/>
+		<Assign Key="Alt+C" Command="set-bookmark"/>
+		<Assign Key="Alt+G" Command="eclipse-gotobookmark"/>
+		<Assign Key="Alt+V" Command="show-code-block"/>
+		<Assign Key="Alt+X" Command="forward"/>
+		<Assign Key="Alt+Z" Command="back"/>
+		<Assign Key="Ctrl+B" Command="hide-code-block"/>
+		<Assign Key="Ctrl+D" Command="comment"/>
+		<Assign Key="Ctrl+K" Command="comment"/>
+		<Assign Key="Ctrl+Shift+D" Command="comment-erase"/>
+		<Assign Key="Ctrl+Shift+K" Command="comment-erase"/>
+	</Mode>
+</KeyBindings>

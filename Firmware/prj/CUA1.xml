@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<KeyBindings Version="1.0" Emulation="CUA">
+	<Mode Name="default">
+		<Assign Key="Alt+X" Command="forward"/>
+		<Assign Key="Alt+Z" Command="back"/>
+	</Mode>
+</KeyBindings>

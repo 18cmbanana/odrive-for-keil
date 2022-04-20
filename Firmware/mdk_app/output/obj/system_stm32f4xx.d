@@ -1,0 +1,10 @@
+.\output\obj\system_stm32f4xx.o: ..\Src\system_stm32f4xx.c
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\include\stm32f4xx.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\include\stm32f405xx.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\include\core_cm4.h
+.\output\obj\system_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\include\core_cmInstr.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\include\cmsis_armcc.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\include\core_cmFunc.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\include\core_cmSimd.h
+.\output\obj\system_stm32f4xx.o: ..\Drivers\CMSIS\Device\ST\STM32F4xx\include\system_stm32f4xx.h
